@@ -1,0 +1,58 @@
+available: false
+callbacks: ''
+cargoAcceptance:
+- PASS
+cargoProduction:
+- PASS
+colour: 1
+fundCostMultiplier: 100
+id: 0
+layout:
+- - - 1
+    - 2
+name: Union Terminal
+placement: in-large-town
+probabilityInGame: 5
+probabilityMapGen: 3
+prospectChance: 75
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/1.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/3.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/4.png
+      left: -31
+      top: -3
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/6.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/union-terminal/5.png
+      left: -31
+      top: 0
+type: primary
