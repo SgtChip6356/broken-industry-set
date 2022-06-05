@@ -6,7 +6,7 @@ colour: 1
 fundCostMultiplier: 100
 id: 0
 layout:
-- - - 0
+- - - 1
 name: Oil Rig
 placement: on-water
 probabilityInGame: 5
